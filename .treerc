@@ -1,0 +1,10 @@
+# .treerc for coverage: controls what files get searched.
+[default]
+ignore =
+    .treerc
+    build
+    htmlcov
+    distribute_setup.py ez_setup.py mock.py
+    *.min.js
+    sample_html
+    *.so *.pyd
